@@ -1,0 +1,191 @@
+/* html, body {
+} */
+
+/* Enable scrollbar for IE, Edge and Firefox */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: url("https://cdn.britannica.com/42/116342-050-5AC41785/Manchester-Eng.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh; 
+  background-attachment: fixed;
+  min-width: 380px;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+#mainContainer {
+  background-color: transparent;
+  padding: 0;
+}
+#background {
+  height: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion-button {
+  text-align: center;
+  display:block;
+  font-size: 40px;
+}
+h1 {
+  font-size: 40px;
+  display: inline;
+}
+p, li {
+  text-align: center;
+  max-width: 60%;
+  font-size: 20px;
+  margin: 0 auto;
+  list-style-type: none;
+  color: white;
+}
+.accordion-body {
+  text-align: center;
+}
+.accordion-button, .accordion-item, .accordion-header, .accordion-button, .accordion-collapse, .accordion-button:not(.collapsed)  {
+  background-color: transparent;
+}
+.accordion-collapse {
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+}
+.accordion-header, .accordion-button {
+  height: 150px;
+}
+.accordion-body, .row {
+  padding: 0;
+  margin: 0;
+}
+.col-sm-4, .col-sm-6 {
+  margin: 0px;
+  padding: 15px 0px 15px 0px;
+  outline: 1px;
+  
+}
+.Logo {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  bottom: 6px;
+  margin-left: 10px;
+}
+.LogoLink {
+  height: 75px;
+  width: 75px;
+  position: relative;
+  bottom: 6px;
+}
+.titleCover {
+  background: rgba(224, 255, 255, 0.7);
+  padding: 5px 40px;
+  border-radius: 25px;
+  outline: 3px solid lightblue;
+  color: black;
+}
+#miniGame {
+  display: block;
+  width: 100%;
+  height: 1000px;
+}
+ol {
+  list-style: none; 
+  padding: 0;
+}
+ol li {
+  position: relative;
+  display: block;
+  padding: 1px 0;
+  margin: 10px auto;
+  background-color: rgb(40, 40, 40);
+  text-decoration: none;
+  max-width: 60%;
+  border-radius: 25px;
+}
+.emailOl {
+  max-width: 30%;
+}
+#miniGame {
+  max-height: 90vh;
+}
+
+@media (min-width: 1200px) {
+  .container-lg{
+      max-width: 400px;
+  }
+}
+* {
+  color: white;
+  border-color: grey;
+  border-radius: 25px;
+}
+#gamePage {
+  background-image: url('/background?type=footballbackground');
+}
+#mainpage {
+  padding: 0;
+  height: 100vh;
+}
+#HeaderBar1, #HeaderBar2, #HeaderBar3, #HeaderBar4, #HeaderBar5, #HeaderBar6 {
+  text-align: center;
+  margin: 0;
+}
+#HeaderBar1, #HeaderBar2 {
+  height: 5%;
+}
+#HeaderBar3 {
+  height: 5%;
+}
+#HeaderBar4 {
+  height: 60%;
+}
+#HeaderBar5, #HeaderBar6 {
+  height: 12.5%;
+}
+#badgeImage {
+  height: 100%;
+  width: 100%;
+}
+#SubmitButton {
+  background-color: darkred;
+}
+#activeSelect {
+  background-color: lightgreen;
+}
+.TitleBarButtons, .scoreButtons {
+  display: inline-block;
+  width: 33.333333%;
+  height: 100%;
+  font-size: 2.5vh;
+  margin: 0;
+  padding: 0;
+}
+.TitleBarButtons {
+  background-color: darkblue;
+  opacity: 0.75;
+}
+.filterBoxes {
+  width: 33.333333%;
+  height: 100%;
+  font-size: 1.75vh;
+  text-align: center;
+}
+.answer {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  font-size: 2.5vh;
+  text-align: center;
+  /* prevent displacement due to large text 'vertical align top' */
+  vertical-align: top; 
+  margin: 0;
+  background-color: darkblue;
+  opacity: 0.75;
+}
+#ScoreBoxV2, #teamSelect {
+  background-color: transparent;
+}
